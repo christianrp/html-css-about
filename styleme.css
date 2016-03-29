@@ -1,0 +1,39 @@
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #D5E5EB;
+    font-family: fantasy;
+}
+
+dt, dd {
+    color: darkslategrey;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: monospace;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+ol {
+    transform: rotate(180deg);
+    margin-left: 1.5em;
+}
+
+ol > li {
+    transform: rotate(180deg);
+}
+
+p::first-letter {
+    font-size: 1.5em;s
+}
